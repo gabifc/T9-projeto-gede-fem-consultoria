@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -50,57 +48,92 @@
       </ul>
     </div>
   </nav>
-  <!--teste-->
-  <section class="d-flex">
-  <div>
+
+  <!--CONTATO-->
+
+  <section class="d-flex flex-column flex-lg-row justify-content-lg-around m-auto">
+
+
     <figure>
-      <img class="width:30%" src="img/Rectangle 14.png" alt="foto">
+      <img class="img_ctt d-flex flex-column flex-md-row justify-content-md-between" src="img/img-contato.jpeg" alt="logo Gede">
     </figure>
-  </div>
 
-  <div>
-    <form action="https://formspree.io/xvowzrwy" method="POST">
-      <label>
-        Nome:
-        <input type="text" name="_replyto">
-      </label>
 
-      <label>
-        Email:
-        <input type="email" name="_replyto">
-      </label>
+    <div class="container ml-5 mt-3">
+      <h2 class="mb-5 mt-1 font-weight-bold color-red">Contatos</h2>
+      <form action="https://formspree.io/xvowzrwy" method="POST">
 
-      <label>
-        Telefone:
-        <input type="tel" name="_replyto">
-      </label>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <label>
+                <p>
+                  Nome:
+                </p>
+                <input type="text" name="_nome">
+              </label>
+            </div>
 
-      <label>
-        Assunto:
-        <select>
-          <option value="orçamento">Orçamento</option>
-          <option value="duvidas">Dúvidas</option>
-          <option value="faca">Faça parte</option>
-        </select>
-      </label>
+            <div class="col">
+              <label>
+                <p>
+                  Email:
+                </p>
+                <input type="email" name="_email">
+              </label>
+            </div>
 
-      <label>
-        Mensagem:
-        <textarea name="message" placeholder="Digite a sua mensagem aqui."></textarea>
-      </label>
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <label>
+                    <p>
+                      Assunto:
+                    </p>
+                    <select>
+                      <option value="orçamento">Orçamento</option>
+                      <option value="duvidas">Dúvidas</option>
+                      <option value="faca">Faça parte</option>
+                    </select>
+                  </label>
+                </div>
 
-      <label>
+                <div class="col">
+                  <label>
+                    <p>
+                      Telefone:
+                    </p>
+                    <input type="tel" name="_tel">
+                  </label>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col div_msg">
+              <label>
+                <p>
+                  Mensagem:
+                </p>
+                <div>
+                <textarea class="" name="message" placeholder="Digite a sua mensagem aqui."></textarea>
+              </div>
+              </label>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <div class="d-flex justify-content-lg-end flex-column flex-lg-row justify-content-sm-center m-auto">
+        <button type="button" class="btn_form">Enviar</button>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
+
+<!-- <label>
         <p>Anexe seu currículo aqui</p>
         <input type="file" name="arquivos">
-      </label>
-
-      <!-- your other form fields go here -->
-
-      <button class="btn_form" type="submit">Enviar</button>
-    </form>
-
-  </div>
-</section>
-</body>
-</html>
->>>>>>> b3d6e40... teste
+      </label> -->
