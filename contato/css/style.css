@@ -1,0 +1,22 @@
+
+* {
+    font-family:'Roboto', sans-serif;
+}
+
+a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+/* .link-red {
+    color: #fd0002;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #fd0002;
+} */
+
+.color-red {
+    color: #fd0002;
+    
+    text-decoration: none;
+}
