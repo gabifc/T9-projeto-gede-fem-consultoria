@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>gede-fem</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="javascript/jquery-3.4.1.min.js"></script>
+  <script src="javascript/script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light d-flex flex-column flex-lg-row justify-content-lg-around m-auto">
+    <a class="navbar-brand ml-lg-3" href="#"><img src="img/gede-logo.png" alt="logo da Gede"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex flex-column flex-md-row justify-content-md-between" id="navbarNav">
+      <ul class="navbar-nav m-lg-auto flex-md-row mr-md-5">
+        <li class="nav-item active mr-md-3">
+          <a class="color-red nav-link" href="#">SOBRE GEDÊ<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item mr-md-3">
+          <a class="color-red nav-link" href="#">SERVIÇOS</a>
+        </li>
+        <li class="nav-item mr-md-3">
+          <a class="nav-link color-red" href="#">LINKS ÚTEIS</a>
+        </li>
+        <li class="nav-item mr-md-3">
+          <a class="nav-link color-red" href="#">CONTATOS</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav d-flex align-items-center flex-md-row ">
+        <li class="nav-item mr-md-2">
+          <a class="color-red nav-link" href="#"><img src="img/Facebook.png" alt="link para facebook"></a>
+        </li>
+        <li class="nav-item mr-md-2">
+          <a class="color-red nav-link" href="#"><img src="img/Instagram.png" alt="link para instagram"></a>
+        </li>
+        <li class="nav-item pr-md-2">
+          <a class="color-red nav-link ml-lg-4 mr-lg-3" href="#"><img src="img/contato.png"
+              alt="icone com contatos"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <section class="d-flex">
+  <div>
+    <figure>
+      <img class="width:30%" src="img/Rectangle 14.png" alt="foto">
+    </figure>
+  </div>
+
+  <div>
+    <form action="https://formspree.io/xvowzrwy" method="POST">
+      <label>
+        Nome:
+        <input type="text" name="_replyto">
+      </label>
+
+      <label>
+        Email:
+        <input type="email" name="_replyto">
+      </label>
+
+      <label>
+        Telefone:
+        <input type="tel" name="_replyto">
+      </label>
+
+      <label>
+        Assunto:
+        <select>
+          <option value="orçamento">Orçamento</option>
+          <option value="duvidas">Dúvidas</option>
+          <option value="faca">Faça parte</option>
+        </select>
+      </label>
+
+      <label>
+        Mensagem:
+        <textarea name="message" placeholder="Digite a sua mensagem aqui."></textarea>
+      </label>
+
+      <label>
+        <p>Anexe seu currículo aqui</p>
+        <input type="file" name="arquivos">
+      </label>
+
+      <!-- your other form fields go here -->
+
+      <button class="btn_form" type="submit">Enviar</button>
+    </form>
+
+  </div>
+</section>
+</body>
+</html>
