@@ -1,53 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gede-fem</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="javascript/jquery-3.4.1.min.js"></script>
-    <script src="javascript/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-light d-flex flex-column flex-lg-row justify-content-lg-around m-auto">
-        <a class="navbar-brand ml-lg-3" href="#"><img src="img/gede-logo.png" alt="logo da Gede"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-flex flex-column flex-md-row justify-content-md-between" id="navbarNav">
-          <ul class="navbar-nav m-lg-auto flex-md-row mr-md-5">
-            <li class="nav-item active mr-md-3">
-              <a class="color-red nav-link" href="#">SOBRE GEDÊ<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item mr-md-3">
-              <a class="color-red nav-link" href="#">SERVIÇOS</a>
-            </li>
-            <li class="nav-item mr-md-3">
-              <a class="nav-link color-red" href="#">LINKS ÚTEIS</a>
-            </li>
-            <li class="nav-item mr-md-3">
-                <a class="nav-link color-red" href="#">CONTATOS</a>
-              </li>
-          </ul>
-          <ul class="navbar-nav d-flex align-items-center flex-md-row ">
-              <li class="nav-item mr-md-2">
-                  <a class="color-red nav-link" href="#"><img src="img/Facebook.png" alt="link para facebook"></a>
-                </li>
-                <li class="nav-item mr-md-2">
-                    <a class="color-red nav-link" href="#"><img src="img/Instagram.png" alt="link para instagram"></a>
-                </li>
-                <li class="nav-item pr-md-2">
-                    <a class="color-red nav-link ml-lg-4 mr-lg-3" href="#"><img src="img/contato.png" alt="icone com contatos"></a>
-                </li>
-            </ul>
-        </div>
-          
-      </nav>
-    <header>
-
-    </header>
+    <script src="javascript/jquery-3.4.1.min.js"></script>
     
-</body>
-</html>
+    <script src="javascript/script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav style="height: 10vh;" class="navbar navbar-expand-lg bg-light d-flex flex-column flex-lg-row align-items-center justify-content-lg-around m-auto">      
+      <div class="dropdown " id="menu-mobile">
+        <a class="btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu 
+        </a>
+        
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="#">SOBRE GEDÊ</a>
+          <a class="dropdown-item" href="#">SERVIÇOS</a>
+          <a class="dropdown-item" href="#">LINKS ÚTEIS</a>
+          <a class="dropdown-item" href="#">E-MAIL</a>
+          <a class="dropdown-item" href="https://www.facebook.com/gedefem" target="_blank">FACEBOOK</a>
+          <a class="dropdown-item" href="https://www.instagram.com/gedefem/" target="_blank">INSTAGRAM</a>
+          <a class="dropdown-item" href="#">WHATSAPP</a>
+        </div>
+      </div>
+      <a class="navbar-brand ml-lg-3" href="#"><img style="height: 8vh;" src="img/gede-logo.png" alt="logo da Gede"></a>
+      
+      <div class="collapse navbar-collapse d-flex flex-md-row justify-content-md-between" id="navbarNav">
+        <ul id="menu-desktop" class="navbar-nav m-lg-auto flex-md-row mr-md-5">
+          <li class="nav-item active mr-md-3">
+            <a class="color-red nav-link" href="#">SOBRE GEDÊ<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mr-md-3">
+            <a class="color-red nav-link" href="#">SERVIÇOS</a>
+          </li>
+          <li class="nav-item mr-md-3">
+            <a class="nav-link color-red" href="#">LINKS ÚTEIS</a>
+          </li>
+          <li class="nav-item mr-md-3">
+            <a class="nav-link color-red" href="#">CONTATOS</a>
+          </li> 
+        </ul>
+        <ul  class="navbar-nav d-flex align-items-center flex-row ">
+          <li id="menu-desktop" class="nav-item mr-2">
+            <a class="color-red nav-link" href="https://www.facebook.com/gedefem" target="_blank"><img class="icon-size" src="img/Facebook.png" alt="link para facebook"></a>
+          </li>
+          <li id="menu-desktop" class="nav-item mr-2">
+            <a class="color-red nav-link" href="https://www.instagram.com/gedefem/" target="_blank"><img class="icon-size" src="img/Instagram.png" alt="link para instagram"></a>
+          </li>
+          <li id="menu-desktop" class="nav-item pr-2">
+            <a class="color-red nav-link ml-lg-4 mr-lg-3" href="#"><img class="icon-size" src="img/contato.png" alt="icone com contatos"></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="header-size font-weight-bold ">
+      <div class="bg-opacity">
+
+        <h1 class="container text-danger">GEDÊ Fem</h1> 
+        
+        <p>Articula forças femininas por meio de uma coletiva de mulheres com conhecimentos em diversas áreas  que  oferecem  serviços  de assessoria <br> <a class="btn btn-warning p-2 mt-2" href="#">Saiba mais</a></p>
+      </div>
+      </header>
+    </body>
+          </html>
