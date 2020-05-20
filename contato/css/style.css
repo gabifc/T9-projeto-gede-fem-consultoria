@@ -22,8 +22,16 @@ a:hover {
 }
 
 .img_ctt {
-    width: 400px;
-    height: 500px;
+    background-image: url(../img/img-contato.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+.div_form{
+    width: 100%;
+    height: 90vh;
 }
 
 input, 
@@ -34,7 +42,8 @@ textarea {
 }
 
 textarea {
-    width: 100vh;
+    max-width: 100vw;
+    width: 80%;
 }
 
 
@@ -44,7 +53,7 @@ textarea {
     color: white;
     justify-content: end;
     text-align: center;
-    margin-right: 250px;
+    margin-right: 20px;
     padding-left: 120px;
     padding-right: 120px;
     padding-top: 5px;
