@@ -29,8 +29,8 @@ a:hover {
     background-size: 100%;
     background-position: center center;
     width: 45%;
-    height: 100vh;
-    margin-right: 0;
+    margin-right: 80px;
+    margin-top: initial;
 }
 
 .img_ctt_responsiva {
